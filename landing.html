@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#000000" />
+  <link rel="shortcut icon" href="./assets/img/favicon.ico" />
+  <link rel="apple-touch-icon" sizes="76x76" href="./assets/img/apple-icon.png" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+  <link rel="stylesheet"
+    href="https://cdn.jsdelivr.net/gh/creativetimofficial/tailwind-starter-kit/compiled-tailwind.min.css" />
+  <title>51 Game - website</title>
+  <style>
+    .Btn {
+  width: 140px;
+  height: 40px;
+  border: none;
+  border-radius: 10px;
+  background: linear-gradient(to right,#77530a,#ffd277,#77530a,#77530a,#ffd277,#77530a);
+  background-size: 250%;
+  background-position: left;
+  color: #ffd277;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition-duration: 1s;
+  overflow: hidden;
+}
+
+.Btn::before {
+  position: absolute;
+  content: "join now";
+  color: #ffd277;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 97%;
+  height: 90%;
+  border-radius: 8px;
+  transition-duration: 1s;
+  background-color: rgba(0, 0, 0, 0.842);
+  background-size: 200%;
+}
+
+.Btn:hover {
+  background-position: right;
+  transition-duration: 1s;
+}
+
+.Btn:hover::before {
+  background-position: right;
+  transition-duration: 1s;
+}
+
+.Btn:active {
+  transform: scale(0.95);
+}
+  </style>
+</head>
+
+<body class="text-gray-800 antialiased">
+  <nav class="top-0 absolute z-50 w-full flex flex-wrap items-center justify-between px-2 py-3 ">
+    <div class="container px-4 mx-auto flex flex-wrap items-center justify-between">
+      <div class="w-full relative flex justify-between lg:w-auto lg:static lg:block lg:justify-start">
+        <a class="text-sm font-bold leading-relaxed inline-block mr-4 py-2 whitespace-nowrap uppercase text-white"
+          href="https://www.creative-tim.com/learning-lab/tailwind-starter-kit#/presentation">51 Club</a><button
+          class="cursor-pointer text-xl leading-none px-3 py-1 border border-solid border-transparent rounded bg-transparent block lg:hidden outline-none focus:outline-none"
+          type="button" onclick="toggleNavbar('example-collapse-navbar')">
+          <i class="text-white fas fa-bars"></i>
+        </button>
+      </div>
+      <div class="lg:flex flex-grow items-center bg-white lg:bg-transparent lg:shadow-none hidden"
+        id="example-collapse-navbar">
+
+        <ul class="flex flex-col lg:flex-row list-none lg:ml-auto">
+
+          <li class="flex items-center">
+            <a class="lg:text-white lg:hover:text-gray-300 text-gray-800 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
+              href="https://t.me/vipchannel51" target="_blank"><i
+                class="lg:text-gray-300 text-gray-500 fab fa-telegram text-lg leading-lg "></i><span
+                class="lg:hidden inline-block ml-2">Telegram</span></a>
+          </li>
+
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <main>
+    <div class="relative pt-16 pb-32 flex content-center items-center justify-center" style="min-height: 75vh;">
+      <div class="absolute top-0 w-full h-full bg-center bg-cover"
+        style='background-image: url("https://images.unsplash.com/photo-1557804506-669a67965ba0?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=crop&amp;w=1267&amp;q=80");'>
+        <span id="blackOverlay" class="w-full h-full absolute opacity-75 bg-black"></span>
+      </div>
+      <div class="container relative mx-auto">
+        <div class="items-center flex flex-wrap  flex justify-center items-center">
+          <div class="w-full lg:w-6/12 px-4 ml-auto text-center  flex justify-center items-center">
+            <div class=" flex justify-center items-center flex-col">
+              <h1 class="text-white font-semibold text-5xl">
+                51 Club
+              </h1>
+              <p class="mt-4 text-lg text-gray-300">
+                official website
+              </p>
+              <p class="mt-4 text-lg text-gray-300">
+                Login is straightforward, offering quick access to your account with robust security measures. The
+                platform’s commitment to user security is backed by its international license, ensuring a safe trading
+                environment.
+              </p>
+              <button class="Btn uppercase  text-center mt-6"> 
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="top-auto bottom-0 left-0 right-0 w-full absolute pointer-events-none overflow-hidden"
+        style="height: 70px;">
+        <svg class="absolute bottom-0 overflow-hidden" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none"
+          version="1.1" viewBox="0 0 2560 100" x="0" y="0">
+          <polygon class="text-gray-300 fill-current" points="2560 0 2560 100 0 100"></polygon>
+        </svg>
+      </div>
+    </div>
+    <section class="pb-20 bg-gray-300 -mt-24">
+      <div class="container mx-auto px-4">
+        <div class="flex flex-wrap">
+          <div class="lg:pt-12 pt-6 w-full md:w-4/12 px-4 text-center">
+            <div class="relative flex flex-col min-w-0 break-words bg-white w-full mb-8 shadow-lg rounded-lg">
+              <div class="px-4 py-5 flex-auto">
+                <div
+                  class="text-white p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-red-400">
+                  <i class="fas fa-award"></i>
+                </div>
+                <h6 class="text-xl font-semibold">Easy to use</h6>
+                <p class="mt-2 mb-4 text-gray-600">
+                  For those new to the platform, the 51 Club Register process is simple and hassle-free. With just a few
+                  steps, you can join the thriving community of traders and start your journey in color trading.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="w-full md:w-4/12 px-4 text-center">
+            <div class="relative flex flex-col min-w-0 break-words bg-white w-full mb-8 shadow-lg rounded-lg">
+              <div class="px-4 py-5 flex-auto">
+                <div
+                  class="text-white p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-blue-400">
+                  <i class="fas fa-retweet"></i>
+                </div>
+                <h6 class="text-xl font-semibold">fast withdraw</h6>
+                <p class="mt-2 mb-4 text-gray-600">
+                  Keep you user engaged by providing meaningful information
+                  easy and fast withdraw
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="pt-6 w-full md:w-4/12 px-4 text-center">
+            <div class="relative flex flex-col min-w-0 break-words bg-white w-full mb-8 shadow-lg rounded-lg">
+              <div class="px-4 py-5 flex-auto">
+                <div
+                  class="text-white p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-green-400">
+                  <i class="fas fa-fingerprint"></i>
+                </div>
+                <h6 class="text-xl font-semibold">Verified Company</h6>
+                <p class="mt-2 mb-4 text-gray-600">
+                  Join TP PLAY today and be part of India’s leading color trading platform!
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+    <section class="relative py-20">
+      <div class="bottom-auto top-0 left-0 right-0 w-full absolute pointer-events-none overflow-hidden -mt-20"
+        style="height: 80px;">
+        <svg class="absolute bottom-0 overflow-hidden" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none"
+          version="1.1" viewBox="0 0 2560 100" x="0" y="0">
+          <polygon class="text-white fill-current" points="2560 0 2560 100 0 100"></polygon>
+        </svg>
+      </div>
+      <div class="container mx-auto px-4">
+        <div class="items-center flex flex-wrap">
+          <div class="w-full md:w-4/12 ml-auto mr-auto px-4">
+            <img alt="..." class="max-w-full rounded-lg shadow-lg"
+              src="https://images.unsplash.com/photo-1555212697-194d092e3b8f?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=crop&amp;w=634&amp;q=80" />
+          </div>
+          <div class="w-full md:w-5/12 ml-auto mr-auto px-4">
+            <div class="md:pr-12">
+              <div
+                class="text-pink-600 p-3 text-center inline-flex items-center justify-center w-16 h-16 mb-6 shadow-lg rounded-full bg-pink-300">
+                <i class="fas fa-rocket text-xl"></i>
+              </div>
+              <h3 class="text-3xl font-semibold">A growing company</h3>
+              <p class="mt-4 text-lg leading-relaxed text-gray-600">
+                Login is straightforward, offering quick access to your account with robust security measures. The
+                platform’s commitment to user security is backed by its international license, ensuring a safe trading
+                environment.
+              </p>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="pt-20 pb-48">
+      <div class="container mx-auto px-4">
+        <div class="flex flex-wrap justify-center text-center mb-24">
+          <div class="w-full lg:w-6/12 px-4">
+            <h2 class="text-4xl font-semibold">HAVE ANY QUESTION?</h2>
+            <p class="text-lg leading-relaxed m-4 text-gray-600">
+              Have any questions? We are always open to talk about your problem, Our Admin ready to help you.
+            </p>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <section class="relative block py-24 lg:pt-0 bg-gray-900">
+      <div class="container mx-auto px-4">
+        <div class="flex flex-wrap justify-center lg:-mt-64 -mt-48">
+          <div class="w-full lg:w-6/12 px-4">
+            <div class="relative flex flex-col min-w-0 break-words w-full mb-6 shadow-lg rounded-lg bg-gray-300">
+              <div class="flex-auto p-5 lg:p-10">
+                <h4 class="text-2xl font-semibold">any dought</h4>
+                <p class="leading-relaxed mt-1 mb-4 text-gray-600">
+                  Complete this form and we will get back to you in 24 hours.
+                </p>
+                <div class="relative w-full mb-3 mt-8">
+                  <label class="block uppercase text-gray-700 text-xs font-bold mb-2" for="full-name">Full
+                    Name</label><input type="text"
+                    class="border-0 px-3 py-3 placeholder-gray-400 text-gray-700 bg-white rounded text-sm shadow focus:outline-none focus:ring w-full"
+                    placeholder="Full Name" style="transition: all 0.15s ease 0s;" />
+                </div>
+                <div class="relative w-full mb-3">
+                  <label class="block uppercase text-gray-700 text-xs font-bold mb-2" for="email">Email</label><input
+                    type="email"
+                    class="border-0 px-3 py-3 placeholder-gray-400 text-gray-700 bg-white rounded text-sm shadow focus:outline-none focus:ring w-full"
+                    placeholder="Email" style="transition: all 0.15s ease 0s;" />
+                </div>
+                <div class="relative w-full mb-3">
+                  <label class="block uppercase text-gray-700 text-xs font-bold mb-2"
+                    for="message">Message</label><textarea rows="4" cols="80"
+                    class="border-0 px-3 py-3 placeholder-gray-400 text-gray-700 bg-white rounded text-sm shadow focus:outline-none focus:ring w-full"
+                    placeholder="Type a message..."></textarea>
+                </div>
+                <div class="text-center mt-6">
+                  <button
+                    class="bg-gray-900 text-white active:bg-gray-700 text-sm font-bold uppercase px-6 py-3 rounded shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1"
+                    type="button" style="transition: all 0.15s ease 0s;">
+                    Send Message
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="relative bg-gray-300 pt-8 pb-6">
+    <div class="bottom-auto top-0 left-0 right-0 w-full absolute pointer-events-none overflow-hidden -mt-20"
+      style="height: 80px;">
+      <svg class="absolute bottom-0 overflow-hidden" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none"
+        version="1.1" viewBox="0 0 2560 100" x="0" y="0">
+        <polygon class="text-gray-300 fill-current" points="2560 0 2560 100 0 100"></polygon>
+      </svg>
+    </div>
+    <div class="container mx-auto px-4">
+      <div class="flex flex-wrap">
+        <div class="w-full lg:w-6/12 px-4">
+          <h4 class="text-3xl font-semibold">Let's keep in touch!</h4>
+          <h5 class="text-lg mt-0 mb-2 text-gray-700">
+            Find us on any of these platforms, we respond 1-2 business days.
+          </h5>
+          <div class="mt-6">
+            <button
+              class="bg-white text-blue-400 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2 p-3"
+              type="button">
+              <a href="https://t.me/vipchannel51" target="_blank"> <i class="flex fab fa-telegram"></i>
+              </a></button>
+
+          </div>
+        </div>
+
+      </div>
+      <hr class="my-6 border-gray-400" />
+      <div class="flex flex-wrap items-center md:justify-between justify-center">
+        <div class="w-full md:w-4/12 px-4 mx-auto text-center">
+          <div class="text-sm text-gray-600 font-semibold py-1">
+            Copyright © 2024 51 club
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+</body>
+<script>
+  function toggleNavbar(collapseID) {
+    document.getElementById(collapseID).classList.toggle("hidden");
+    document.getElementById(collapseID).classList.toggle("block");
+  }
+</script>
+
+</html>
